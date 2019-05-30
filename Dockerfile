@@ -1,6 +1,6 @@
 FROM mavenqa.got.volvo.net:18443/openjdk:8
 
-ADD restful-web-services-0.0.1-SNAPSHOT.jar restful-web-services-0.0.1-SNAPSHOT.jar
+ADD /target/restful-web-services-0.0.1-SNAPSHOT.jar restful-web-services-0.0.1-SNAPSHOT.jar
 
 EXPOSE 8100
 
