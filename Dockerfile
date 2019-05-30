@@ -6,4 +6,4 @@ ADD restful-web-services-0.0.1-SNAPSHOT.jar restful-web-services-0.0.1-SNAPSHOT.
 
 EXPOSE 8100
 
-ENTRYPOINT ["java", "-jar", "toDoService-0.0.1-SNAPSHOT.jar"] 
+ENTRYPOINT ["java", "-jar", "restful-web-services-0.0.1-SNAPSHOT.jar"] 
